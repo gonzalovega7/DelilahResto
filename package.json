@@ -1,0 +1,40 @@
+{
+	"name": "delilah-resto",
+	"version": "1.0.0",
+	"description": "",
+	"main": "delilahresto/index.js",
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development nodemon delilahresto/index.js",
+		"start": "cross-env NODE_ENV=production node delilahresto/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gonzalovega7/delilahresto.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/gonzalovega7/delilahresto/issues"
+	},
+	"homepage": "https://github.com/gonzalovega7/delilahresto#readme",
+	"dependencies": {
+		"@babel/runtime-corejs2": "^7.11.2",
+		"cors": "^2.8.5",
+		"cross-env": "^7.0.2",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"mysql2": "^2.2.5",
+		"node-forge": "^0.10.0",
+		"sequelize": "^5.22.3"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.11.6",
+		"@babel/plugin-transform-runtime": "^7.11.5",
+		"@babel/runtime-corejs3": "^7.11.2",
+		"nodemon": "^2.0.4",
+		"parcel-bundler": "^1.12.4",
+		"prettier": "^2.1.2",
+		"sass": "^1.27.0"
+	}
+}
